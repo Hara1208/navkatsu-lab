@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial=1.0">
+        <meta name="description" content="ナブカツ用のウェブサイトです。基本的なウェブのフロントエンドの書き方、JavaScriptの書き方を学びます。">
+        <meta name="Keywords" content="ナブカツ,横須賀,ポートフォリオ,ウェブサイト,プログラミング,フロントエンド,学習,イトナブ"/>
+
+        <title>ナブカツLab</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">       
+        <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+        <link rel="stylesheet"href="css/style.css">
+    </head>
+
+<body>
+    <!-- Header -->
+    <header id="site-header">
+    <h1 id="site-logo"><a href="">LOGO</a></h1>
+    <nav>
+        <ul id="nav-menu">
+            <li class="nav-menu-items"><a href="#profile">Profile</a></li>
+            <li class="nav-menu-items"><a href="#works">Recommended place</a></li>
+            <li class="nav-menu-items"><a href="#access">Access</a></li>
+            <li class="nav-menu-items"><a href="#promotion">Promotion</a></li>   
+        </ul>
+        </nav>
+    </header>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/photo1.jpg"></div>
+                    <div class="swiper-slide"><img src="img/photo2.jpg"></div>
+                    <div class="swiper-slide"><img src="img/photo3.jpg"></div>
+                    <div class="swiper-slide"><img src="img/photo4.jpg"></div>
+
+                </div>
+                <div class="top-title">Let's enjoy Yokosuka!</div>
+                <div class="description-text">
+                    <p>横須賀のおすすめの場所を紹介します。</p>
+                </div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+            </div> 
+        </div>
+    </div>
+        <hr class="rule" id="profile">
+            <h2 class="sub-title">~ Porofile ~</h2>
+                <div class="profile">
+                    <div id="profile-img">
+                        <img src="img/Mt.fuji.JPG" alt="profile-photo">
+                    </div>
+                    <div id="profile-text">
+                        <p>Hara/ 2009年生まれ / 射手座 / Ｏ型</p>
+                        <p>横須賀出身</p>
+                        <p>好きなもの：プラモデル ・ 車 ・ 写真 ・ 好きな食べ物 ・ チャーハン ・ フルーツ</p>
+                    </div>
+                </div>
+            <hr class="rule" id="works">
+            <h2 class="sub-title">~ Recommended place ~</h2>
+                    <div class=works>
+                        <div class="work">
+                            <h3 class="work-title">ソレイユの丘</h3>
+                            <img class="work-img" src="img/LeSoleil.JPG">
+                            <p>
+                                
+                            </p>
+                        </div>
+                    <div class="work">
+                        <h3 class="work-title">横須賀美術館</h3>
+                        <img class="work-img" src="img/photo4.jpg">
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="work">
+                        <h3 class="work-title">津久井浜観光農園</h3>
+                        <img class="work-img" src="img/Strawberry.jpg">
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>    
+
+            <hr class="rule" id="access">
+                <h2 class="sub-title">~Access~</h2>
+                <div class="access">
+                    <div id="access-text">
+                        <p id="place-name">横須賀市</p>
+                        <p>〒000-111</p>
+                        <p>神奈川県横須賀市 0-0</p>
+                        <br>
+                        <p>Tel:<a href="tel:000-1234-5678"></a></p>
+                        <p>Mail:<a href="mail:info@yokosuka.jp">info@yokosuka.jp</a></p>
+                        <p>Web:<a href="https://www.city.yokosuka.kanagawa.jp/index.html">www.city.yokosuka.kanagawa.jp</a></p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104250.47119961487!2d139.59072814737814!3d35.26055387055114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60183f970a869e57%3A0x5220e231a4d9673f!2z56We5aWI5bed55yM5qiq6aCI6LOA5biC!5e0!3m2!1sja!2sjp!4v1561374385387!5m2!1sja!2sjp"
+                        width="600" height="450"frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>
+                <hr class="rule" id="promotion">
+                <h2 class="sub-title">~ Promotin ~</h2>
+                <div class="promotion">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/50cv5hyoQqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div> 
+                    <footer id="site-footer">
+                        <p id="copyright"><small>&copy; 2019 Itnav</small></p>
+                    </footer>  
+                </div> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
